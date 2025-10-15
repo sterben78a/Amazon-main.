@@ -1,7 +1,7 @@
 import { orders } from "../data/orders.js";
 import { loadProductsFetch, products } from "../data/products.js";
 import { formatCurrency } from "./utils/money.js";
-import { formatDate , isWeekend } from "./utils/weekend.js";
+import {  isWeekend } from "./utils/weekend.js";
 
 console.log(orders);
 
